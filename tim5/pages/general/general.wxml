@@ -1,0 +1,21 @@
+<import src="../recent/recent-temp.wxml" />
+<view class="container">
+  <view class="imgContainer">
+  <image class="imgdelete" src="../../images/delete.png" bindtap='ondeleteTap'> </image>
+     <image class="imgplus" src="../../images/plus.png" bindtap='onTap'> </image> 
+    
+  </view>
+
+  <view class="tempCont">
+    <view class="timeContainer">
+      <text class="timeLeft">{{sgleft}}</text>
+    </view>
+    <view class="line">
+      <image class="line1" src="../../images/line.png"></image>
+      <image class="lineIcon" src="../../images/festival.png"></image>
+      <image class="line2" src="../../images/line.png"></image>
+    </view>
+    <text class="timeName">{{sgname}}</text>
+  </view>
+
+</view>

@@ -1,0 +1,9 @@
+<import src="../recent/recent-temp.wxml" />
+
+<view wx:for="{{array}}" wx:for-item="item" wx:if="{{item.leftDays>=0}}">
+  <view bindlongpress='singleDelete' id="{{index}}">
+    <template is="recentItem" data="{{...item}}" />
+  </view>
+
+
+</view>

@@ -1,0 +1,62 @@
+page {
+  height: 100%;
+  background: linear-gradient(to bottom, #ffe153, whitesmoke);
+  /* background-color: ghostwhite; */
+}
+
+.addcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgato {
+  clear: both;
+  display: block;
+  margin: auto;
+}
+
+.sgname {
+  background-color: white;
+  margin-left: 80rpx;
+  border-radius: 8px;
+  left: 20rpx;
+  height: 80rpx;
+  /* width: 80%; */
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid lavender;
+  border-top: 1px solid lavender;
+  margin-right: 80rpx;
+  padding-left: 20rpx;
+}
+
+.atosign {
+  height: 70rpx;
+  width: 70rpx;
+  margin-bottom: 60rpx;
+  margin-top: 60rpx;
+}
+
+.nameinput {
+}
+
+.section {
+  background: white;
+  margin: 20rpx;
+  padding: 20rpx;
+}
+
+.picker {
+  text-indent: 35%;
+}
+
+.confirmButton {
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+  margin-top: 500rpx;
+}
+
+.buttonStyle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}

@@ -1,0 +1,92 @@
+@import "../recent/recent-temp.wxss";
+
+page {
+  height: 100%;
+  background: linear-gradient(to bottom, #1db0b8, #a0f0ed);
+  /* background-color:#1DB0B8; */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgdelete {
+  float: left;
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 50rpx;
+  margin-left: 668rpx;
+}
+
+.imgplus {
+  position: fixed;
+  bottom: 39rpx;
+  float: right;
+  width: 80rpx;
+  height: 80rpx;
+  border: 0 solid #fff;
+  border-radius: 750rpx;
+  box-shadow: 10rpx 10rpx 40rpx #1db0b8;
+  right: 39rpx;
+}
+
+.timeContainer {
+  margin: 0 auto;
+}
+
+.timeLeft {
+  font-size: 140rpx;
+  font-weight: bolder;
+  color: black;
+}
+
+.line {
+  display: inline-flex;
+  margin-top: 50rpx;
+}
+
+.line1 {
+  height: 4rpx;
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+
+.line2 {
+  height: 4rpx;
+  width: 200rpx;
+  margin-left: 20rpx;
+}
+
+.lineIcon {
+  height: 90rpx;
+  width: 90rpx;
+  margin-top: -40rpx;
+  color: whitesmoke;
+}
+
+.tempCont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150rpx;
+  align-items: center;
+}
+
+.timeName {
+  margin-top: 20rpx;
+  font-size: 38rpx;
+  font-weight: bold;
+  color: black;
+  font-style: oblique;
+}
+
+.temp-cont {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

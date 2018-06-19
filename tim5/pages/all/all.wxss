@@ -1,0 +1,7 @@
+/* pages/all/all.wxss */
+@import "../recent/recent-temp.wxss";
+
+page {
+  height: 100%;
+  background-color: #a0f0ed;
+}

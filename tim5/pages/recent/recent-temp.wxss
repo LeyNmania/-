@@ -1,0 +1,58 @@
+.recent-temp {
+  height: 150rpx;
+  display: flex;
+  flex-direction: row;
+  background-color: #37c6c0;
+  border-bottom: 1px solid gainsboro;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  padding-right: 20rpx;
+}
+
+.particular {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rpx;
+}
+
+.lineIcon2 {
+  height: 70rpx;
+  width: 70rpx;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+}
+
+.timeName2 {
+  margin-top: 32rpx;
+  margin-left: 40rpx;
+  font-size: 35rpx;
+  font-weight: bold;
+  color: black;
+}
+
+.timeForm {
+  margin-left: 40rpx;
+  margin-top: 5rpx;
+  font-size: 32rpx;
+}
+
+.LeftandDay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  right: 5%;
+  margin-top: 37rpx;
+}
+
+.timeLeft2 {
+  font-size: 55rpx;
+  color: #a0f0ed;
+  font-weight: bold;
+}
+
+.Day {
+  margin-top: 1rpx;
+  margin-left: 20rpx;
+  font-size: 33rpx;
+  color: #20504f;
+}

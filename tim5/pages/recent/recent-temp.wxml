@@ -1,0 +1,16 @@
+<template name="recentItem">
+  <view class="recent-temp">
+
+    <image class="lineIcon2" src="../../images/hourglass9.png"></image>
+    <view class="particular">
+      <text class="timeName2">{{name}}</text>
+      <text class="timeForm">{{date}}</text>
+    </view>
+    <view class="LeftandDay">
+        <text class="timeLeft2">{{leftDays}}</text>
+        <text class="Day">days</text>
+    </view>
+  
+  </view>
+
+</template>

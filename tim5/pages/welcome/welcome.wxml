@@ -1,0 +1,7 @@
+<view class="container">
+  <image class="avatar" src="/images/atomic.png"></image>
+
+  <view class="journey-container" bindtap="onTap">
+    <text class="journey">ENTER</text>
+  </view>
+</view>

@@ -1,0 +1,23 @@
+<view class="addcontainer">
+  <view class="imgato">
+    <image class="atosign" src="../../images/atomicsign.png"></image>
+  </view>
+  <view class="nameinput">
+    <input class="sgname" maxlength='10' placeholder='日程表名称...' placeholder-style='color:#999' bindblur='onNameConfirm'></input>
+  </view>
+
+  <view class="section">
+    <picker mode="date" value="{{date}}" start="1978-01-01" end="2050-12-31" bindchange="bindDateChange">
+      <view class="picker">
+        {{dates}}
+      </view>
+    </picker>
+  </view>
+
+  <view class="confirmButton">
+    <button class="buttonStyle" plain='true' type='primary' bindtap='onconfirm'>Confirm</button>
+  </view>
+  <block>
+    <text style="font-size:50rpx;">{{sgla.sgname}}</text>
+  </block>
+</view>
